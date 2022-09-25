@@ -46,7 +46,7 @@ function OrderDetails() {
     addCart(cake);
     toast.success('Added to Cart!', {
       position: "top-center",
-      autoClose: 5000,
+      autoClose: 2000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
@@ -72,7 +72,7 @@ function OrderDetails() {
       
       toast.success('Your request was received , we will reach out in a few to confirm your order ', {
         position: "top-center",
-        autoClose: 7000,
+        autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
